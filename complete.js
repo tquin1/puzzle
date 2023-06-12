@@ -7,10 +7,10 @@ $(document).ready(function () {
       var anchor = window.location.hash.substr(1);
 
       var redirectUrls = {
-        "1": "/writing/1",
-        "2": "/reading/1",
-        "3": "/writing/2",
-        "4": "/reading/2",
+        "1": "https://tquin1.github.io/puzzle/writing/1",
+        "2": "https://tquin1.github.io/puzzle/reading/1",
+        "3": "https://tquin1.github.io/puzzle/writing/2",
+        "4": "https://tquin1.github.io/puzzle/reading/2",
       };
 
       if (redirectUrls.hasOwnProperty(anchor)) {
